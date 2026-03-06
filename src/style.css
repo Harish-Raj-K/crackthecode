@@ -108,28 +108,17 @@ body {
   gap: 15px;
 }
 
-.logo-placeholder {
-  width: 40px;
-  height: 40px;
-  background: var(--color-primary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  font-weight: bold;
-  font-family: var(--font-title);
-  font-size: 14px;
+.main-logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
 }
 
 .college-name {
   font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 1px;
-}
-
-.badges {
-  display: flex;
-  gap: 10px;
 }
 
 /* Main Hero Content */
